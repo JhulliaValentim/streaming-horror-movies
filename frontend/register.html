@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Netflix API</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="register.js" defer></script>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Assine</h1>
+        <form id="register-form">
+            <div class="input-group">
+                <input type="text" id="username" required>
+                <label for="username">Nome de usuário</label>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" required>
+                <label for="password">Senha</label>
+            </div>
+            <button type="submit">Registrar</button>
+        </form>
+        <div id="message"></div>
+        <p class="signup-link">Já tem uma conta? <a href="index.html">Entrar agora</a>.</p>
+    </div>
+</body>
+</html>

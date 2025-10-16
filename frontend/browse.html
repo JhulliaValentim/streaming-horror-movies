@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegar - Netflix API</title>
+     <link rel="stylesheet" href="style.css">
+    <script src="browse.js" defer></script>
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <h1 class="logo">CLONEFLIX</h1>
+            <nav class="main-nav">
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+            </nav>
+        </div>
+        <div class="header-content-right">
+            <div class="search-box">
+                <input type="text" placeholder="Buscar">
+            </div>
+            <button id="logout-button">Sair</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="main-banner">
+            <div class="banner-content">
+                <h2 class="banner-title"></h2>
+                <p class="banner-description"></p>
+                <div class="banner-buttons">
+                    <button>► Assistir</button>
+                    <button>+ Minha Lista</button>
+                </div>
+            </div>
+            <div class="banner-fade"></div>
+        </section>
+
+        <section id="carousels-container"></section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Cloneflix. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
